@@ -1,0 +1,36 @@
+.headerSlideWrap {
+    max-height: 435px;
+    background: url("./header-slide.png") no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pfHeaderTitleWrap {
+    color: #ffffff;
+    text-align: center;
+}
+.pfHeaderButton {
+    color: #ffffff;
+    max-width: 170px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background: #fb6470;
+    border: none;
+    outline: none;
+}
+.pfHeaderTitle {
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.pfHeaderSubtitle {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
