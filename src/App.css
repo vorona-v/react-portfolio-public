@@ -12,11 +12,15 @@
 }
 .pfNavigationWrap {
   width: 295px;
-  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
   background: #353541;
 }
 .pfInfoWrap {
-  width: calc(100% - 295px);
+  width: 100%;
+  padding: 0 0 0 295px;
 }
 .pfTitle {
   position: relative;
