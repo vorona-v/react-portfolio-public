@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter, NavLink, Route} from 'react-router-dom';
 
+import './../node_modules/@fortawesome/fontawesome-free/css/all.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import Header from './components/Header/Header';
@@ -14,6 +15,7 @@ import Work from './components/Work/Work';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contacts from './components/Contacts/Contacts';
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
                       <Route path='/portfolio' component={Portfolio}/>
                       <Route path='/contacts' component={Contacts}/>
                   </div>
+
+                  <Footer/>
               </div>
           </div>
       </BrowserRouter>
