@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, NavLink, Route} from 'react-router-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 import './../node_modules/@fortawesome/fontawesome-free/css/all.css';
 import 'bootstrap/dist/css/bootstrap.css';

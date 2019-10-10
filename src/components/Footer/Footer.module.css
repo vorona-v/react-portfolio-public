@@ -44,3 +44,15 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
+.topFooterWrap {
+    display: flex;
+}
+.footerMessageBlock {
+    width: 50%;
+    padding: 0 100px 0 0;
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+.footerInfoBlock {
+    width: 50%;
+    padding: 0 0 0 100px;
+}
