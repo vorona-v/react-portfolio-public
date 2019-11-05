@@ -3,7 +3,9 @@ import style from './Portfolio.module.css'
 
 const Portfolio = () => {
     return (
-        <div>Portfolio</div>
+        <div className="container">
+            <div className="pfTitle">Portfolio</div>
+        </div>
     )
 };
 

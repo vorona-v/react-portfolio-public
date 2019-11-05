@@ -3,7 +3,9 @@ import style from './Home.module.css'
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <div className="container">
+            <div className="pfTitle">Home</div>
+        </div>
     )
 };
 

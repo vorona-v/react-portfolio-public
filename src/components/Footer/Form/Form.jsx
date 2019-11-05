@@ -7,7 +7,9 @@ import Textarea from './Textarea';
 function Form({ onSubmit }) {
     return (
         <form
-            onSubmit={onSubmit}>
+            onSubmit={onSubmit}
+
+           className={style.formWrap}>
             <Input
                 type="text"
                 id="name"
@@ -21,9 +23,10 @@ function Form({ onSubmit }) {
             <Textarea
                 id="text"
                 type="textarea"
+                rows="10"
                 placeholder="Message*" />
 
-            <button type="button" className={'btn' + ' ' + 'btn-sm' + ' ' + style.pfFooterButton}>Hire me!</button>
+            <button type="button" className={'btn' + ' ' + 'btn-sm' + ' ' + style.footerButton}>Hire me!</button>
         </form>
     );
 }

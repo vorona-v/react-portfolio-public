@@ -3,7 +3,9 @@ import style from './Work.module.css'
 
 const Work = () => {
     return (
-        <div>Work</div>
+        <div className="container">
+            <div className="pfTitle">Work</div>
+        </div>
     )
 };
 

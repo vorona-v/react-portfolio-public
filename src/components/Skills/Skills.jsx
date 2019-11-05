@@ -3,7 +3,9 @@ import style from './Skills.module.css'
 
 const Skills = () => {
     return (
-        <div>Skills</div>
+        <div className="container">
+            <div className="pfTitle">Skills</div>
+        </div>
     )
 };
 

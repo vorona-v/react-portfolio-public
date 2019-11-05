@@ -46,13 +46,109 @@
 }
 .topFooterWrap {
     display: flex;
+    padding: 80px 0;
+}
+.messageBlockTitle {
+    color: #3e3e3e;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+.formWrap input {
+    border-color: #353541;
+    border-radius: 0;
+    color: #353541;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    margin: 0 0 20px;
+}
+.formWrap input::placeholder {
+    color: #3e3e3e;
+}
+.formWrap textarea {
+    border-color: #353541;
+    border-radius: 0;
+    color: #353541;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    resize: none;
+}
+.formWrap textarea::placeholder {
+    color: #3e3e3e;
+}
+.footerButton {
+    color: #ffffff;
+    max-width: 94px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background: #fb6470;
+    border: 1px solid #fb6470;
+    outline: none;
+    transition: all 0.2s;
+    float: right;
+}
+.footerButton:hover {
+    color: #fb6470;
+    background: #ffffff;
 }
 .footerMessageBlock {
     width: 50%;
-    padding: 0 100px 0 0;
-    border-right: 1px solid rgba(0,0,0,0.2);
+    padding: 0 78px 0 0;
+    position: relative;
+}
+.footerMessageBlock:after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 0;
+    bottom: 40px;
+    width: 1px;
+    background: rgba(0,0,0,0.2);
 }
 .footerInfoBlock {
     width: 50%;
-    padding: 0 0 0 100px;
+    padding: 0 0 0 50px;
+}
+.footerLocationBlock {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    margin: 0 0 50px;
+}
+.footerLocationBlock:last-child {
+    margin: 0;
+}
+.locationIcon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+}
+.locationIcon span:before {
+    color: #3e3e3e;
+    font-size: 30px;
+}
+.locationTitle {
+    position: relative;
+    font-size: 18px;
+    color: #3e3e3e;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.locationInfo {
+    font-size: 14px;
+    color: #3e3e3e;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
 }
