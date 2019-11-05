@@ -1,0 +1,36 @@
+.pfAboutWrap {
+    display: flex;
+    flex-direction: row;
+}
+.pfAboutInfoWrap {
+    background: #f9f9f9;
+}
+.pfAboutInfo {
+    width: 50%;
+}
+.pfInfoItem {
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.pfInfoItem:last-child {
+    border-bottom: none;
+}
+.pfInfoItem span {
+    font-weight: 600;
+    padding: 0 2px 0 0;
+    margin: 0 2px 0 0;
+}
+.pfAboutPhoto {
+    width: 50%;
+    padding: 0 0 0 60px;
+}
+.pfAboutPhoto img {
+    height: 100%;
+    width: 100%;
+}

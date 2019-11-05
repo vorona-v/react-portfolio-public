@@ -1,0 +1,45 @@
+.photoWrap {
+    display: block;
+    max-height: 220px;
+    height: 100%;
+    position: relative;
+}
+.photoWrap:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    border-bottom: 1px solid #131321;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(53,53,65,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(53,53,65,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(53,53,65,1) 100%);
+}
+.photoWrap img {
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+.pfAuthorNameWrap {
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+.pfAuthorName {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.pfAuthorPosition {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
