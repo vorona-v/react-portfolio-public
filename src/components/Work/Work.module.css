@@ -1,0 +1,10 @@
+.workRectangleWrap {
+    display: flex;
+    width: 100%;
+    max-width: 740px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.rectangleWrap:nth-child(even) {
+    margin: 50px 0 0;
+}
