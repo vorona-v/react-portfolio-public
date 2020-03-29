@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './About.module.css'
+import style from './_About.module.scss'
 
 import photo from './Photo/Image-w.png';
 

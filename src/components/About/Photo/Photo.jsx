@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Photo.module.css'
+import style from './_Photo.module.scss'
 import photo from './Image-w.png';
 
 const Photo = () => {

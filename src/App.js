@@ -5,9 +5,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import './../node_modules/@fortawesome/fontawesome-free/css/all.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import Header from './components/Header/Header';
 import NavMenu from './components/NavMenu/NavMenu';
-import Home from './components/Home/Home';
 import About from './components/About/About';
 import Photo from './components/About/Photo/Photo';
 import Education from './components/Education/Education';
@@ -26,10 +24,8 @@ function App() {
                   <NavMenu/>
               </div>
               <div className="pfInfoWrap">
-                  <Header/>
 
                   <div className="pfWrapperContent">
-                      <Route path='/home' component={Home}/>
                       <Route path='/about' component={About}/>
                       <Route path='/education' component={Education}/>
                       <Route path='/work' component={Work}/>
