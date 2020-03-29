@@ -12,6 +12,7 @@
 }
 .pfWrapperContent {
   padding: 80px 0 0;
+  overflow: hidden;
 }
 .pfNavigationWrap {
   width: 295px;
