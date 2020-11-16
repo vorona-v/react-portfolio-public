@@ -2,6 +2,7 @@
 /.idea
 /.idea/.gitignore
 
+App.css.map
 # dependencies
 /node_modules
 /.pnp

@@ -1,7 +1,7 @@
 import React from 'react';
-import style from './Work.module.css';
+import style from './_Work.module.scss';
 
-import Rectangle from "../CommonComponents/Rectangle";
+import Rectangle from "../CommonComponents/Rectangle/Rectangle";
 
 const Work = (props) => {
 

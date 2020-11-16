@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Education.module.css'
+import style from './_Education.module.scss'
 
 const Education = () => {
     return (

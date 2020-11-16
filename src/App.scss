@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+@import "components/Home/Home.module";
+@import "components/About/Photo/Photo.module";
+@import "components/About/About.module";
+@import "components/CommonComponents/ProgressBar/ProgressBar.module";
+@import "components/CommonComponents/Rectangle/Rectangle.module";
+@import "components/Contacts/Contacts.module";
+@import "components/Education/Education.module";
+@import "components/Footer/Footer.module";
+@import "components/NavMenu/NavMenu.module";
+@import "components/Portfolio/Portfolio.module";
+@import "components/Skills/Skills.module";
+@import "components/Work/Work.module";
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  padding: 0 15px;
+}
+.pfPageWrap {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.pfWrapperContent {
+  padding: 80px 0 0;
+}
+.pfNavigationWrap {
+  width: 295px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #353541;
+}
+.pfInfoWrap {
+  width: 100%;
+  padding: 0 0 0 295px;
+}
+.pfTitle {
+  position: relative;
+  font-size: 32px;
+  color: #3e3e3e;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+.pfTitle:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 75px;
+  background: #fb6470;
+}

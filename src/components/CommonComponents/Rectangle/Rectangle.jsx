@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Rectangle.module.css';
+import style from './_Rectangle.module.scss';
 
 const Rectangle = ({title, subtitle, time, information}) => {
     return (
